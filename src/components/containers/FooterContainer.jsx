@@ -1,21 +1,18 @@
 
-export default function AboutTab() {
+
+export default function FooterContainer() {
     return (
         <>
         <div className="flex">
-            <div className="basis-5/6 pl-5">© 2023 Edu Dialect</div>
-            <div className="basis-1/6">
-                <a href="https://www.Youtube.com">
-                    <img className="w-3/4 m-auto" src="/assets/Instagram.png" />
+            <div className="basis-5/6 pl-4">© 2023 Edu Dialect</div>
+            <div className="flex basis-1/6 justify-end pr-5 space-x-4">
+                <a href="https://www.instagram.com/edu.dialect/?igshid=NTc4MTIwNjQ2YQ%3D%3D" target="_blank" >
+                    <img className="h-7" src="/assets/Instagram.png" alt="Instagram" />
+                </a> 
+                <a href="https://www.linkedin.com/company/edudialect/about/" target="_blank" >
+                    <img className="h-7" src="/assets/Linkedin.png" alt="Linkedin"/>
                 </a>
-                
-            </div>
-            <div className="basis-1/6">
-                <img className="w-3/4 m-auto" src="/assets/Linkedin.png" />
             </div>
         </div>
-            
         </>
-        
-    ); 
-}
+); }

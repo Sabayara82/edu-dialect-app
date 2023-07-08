@@ -1,5 +1,5 @@
 
-export default function AboutTab() {
+export default function TabsContainer() {
     return (
         <>
             <div>Tabs</div>

@@ -32,11 +32,11 @@ function App() {
           <div className="basis-1/12 bg-orange-700"> <LoginContainer /> </div>
         </div> 
 
-        <div className="basis-9/12 bg-yellow-600">
+        <div className="basis-11/12 bg-yellow-600">
           <RouterProvider router={router} /> 
         </div>
 
-        <div className="basis-1/12 bg-lime-600"> 
+        <div className="basis-1.5px bg-lime-600"> 
           <FooterContainer /> 
         </div>
     </div>
