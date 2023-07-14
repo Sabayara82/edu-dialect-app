@@ -15,10 +15,10 @@ import SupportTab from "./components/tabs/SupportTab";
 
 let router = createBrowserRouter([ 
   { path: "/", id: "Home", element: <HomePageTab />, value: "0" },
-    { path: "/about", id: "About", element: <AboutTab />, value: "1" },
-    { path: "/impact", id: "Impact", element: <ImpactTab />, value: "2" },
-    { path: "/proficiencytest", id: "ProficiencyTest", element: <ProficiencyTestTab />, value: "3" },
-    { path: "/upport", id: "Support", element: <SupportTab />, value: "4" },
+  { path: "/about", id: "About", element: <AboutTab />, value: "1" },
+  { path: "/impact", id: "Impact", element: <ImpactTab />, value: "2" },
+  { path: "/proficiencytest", id: "ProficiencyTest", element: <ProficiencyTestTab />, value: "3" },
+  { path: "/support", id: "Support", element: <SupportTab />, value: "4" },
 ])
 
 
