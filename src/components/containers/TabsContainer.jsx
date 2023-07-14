@@ -2,7 +2,7 @@
 export default function TabsContainer() {
     return (
         <>
-            <div>Tabs</div>
+            <div>Tabs </div>
         </>
         
     ); 
