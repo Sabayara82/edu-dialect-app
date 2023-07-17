@@ -26,10 +26,10 @@ function App() {
   return (
     <>
     <div className="flex flex-col h-screen">
-      <div className="basis-2/12 flex flex-row">
-          <div className="basis-3/12 bg-orange-500"> <LogoTitleContainer /> </div>
-          <div className="basis-8/12 bg-orange-600"> <TabsContainer /> </div>
-          <div className="basis-1/12 bg-orange-700"> <LoginContainer /> </div>
+      <div className="h-20 flex flex-row">
+          <div className="basis-3/12 bg-74959B"> <LogoTitleContainer /> </div>
+          <div className="basis-8/12 bg-74959B"> <TabsContainer /> </div>
+          <div className="basis-1/12 bg-74959B"> <LoginContainer /> </div>
         </div> 
 
         <div className="basis-11/12 bg-yellow-600">
