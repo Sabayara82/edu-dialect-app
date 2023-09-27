@@ -5,7 +5,7 @@ export default function LoginContainer() {
         {/* On smaller screens (hidden on medium and above) */}
         
         <div className="flex items-center pr-4 pt-6 md:hidden">
-            <button>
+            <button> 
                 <img
                     src="/assets/login.png"
                     alt="login icon"
