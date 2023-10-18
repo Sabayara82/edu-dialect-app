@@ -29,7 +29,7 @@ function App() {
         <div className="basis-2/12 flex flex-row">
           <div className="basis-3/12 bg-white-500"> <LogoTitleContainer /> </div>
           <div className="basis-7/12 bg-white-600"> <TabsContainer /> </div>
-          <div className="basis-2/12 bg-orange-700"> <LoginContainer /> </div>
+          <div className="w-2/12 bg-white-700 flex justify-end items-center transform scale-90"><LoginContainer /></div>
         </div>
 
         {/* <div className="basis-11/12 bg-yellow-600">

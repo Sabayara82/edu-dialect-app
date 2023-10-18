@@ -6,7 +6,7 @@ function Tab({ label, path, activeTab }) {
 
   const tabStyles = {
     fontFamily: "YourFontName, sans-serif", 
-    //fontWeight: isActive ? "bold" : "normal", // Change for active and inactive tabs
+    //fontWeight: isActive ? "bold" : "normal", // css for active and inactive tabs
     fontSize: "20px", 
     
   };

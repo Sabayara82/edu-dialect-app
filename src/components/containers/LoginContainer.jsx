@@ -4,9 +4,13 @@ export default function LoginContainer() {
     const navigate = useNavigate();
     return (
         <>
-            
-            <button onClick={()=>navigate("/")}>Login</button>
+            <button onClick={()=>navigate("/login")}>
+                <img className="w-8 md:w-16 lg:w-20" 
+                src="login.png"
+                s/>
+            </button>
         </>
         
     ); 
 }
+
