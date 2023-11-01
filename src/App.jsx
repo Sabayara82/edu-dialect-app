@@ -27,9 +27,9 @@ function App() {
     <>
       <div className="flex flex-col h-screen">
         <div className="basis-2/12 flex flex-row">
-          <div className="basis-3/12 bg-orange-500"> <LogoTitleContainer /> </div>
-          <div className="basis-7/12 bg-orange-600"> <TabsContainer /> </div>
-          <div className="basis-2/12 bg-orange-700"> <LoginContainer /> </div>
+          <div className="basis-3/12 bg-white-500"> <LogoTitleContainer /> </div>
+          <div className="basis-7/12 bg-white-600"> <TabsContainer /> </div>
+          <div className="w-2/12 bg-white-700 flex justify-end items-center transform scale-90"><LoginContainer /></div>
         </div>
 
         {/* <div className="basis-11/12 bg-yellow-600">
@@ -43,6 +43,7 @@ function App() {
             <Route exact path="/impact" element={<ImpactTab />} />
             <Route exact path="/proficiencytest" element={<ProficiencyTestTab />} />
             <Route exact path="/support" element={<SupportTab />} />
+            <Route exact path="/login" element={<LoginContainer/>}/>
           </Routes>
         </div>
 
