@@ -26,7 +26,7 @@ function App() {
   return (
     <>
       <div className="flex flex-col h-screen">
-        <div className="basis-2/12 flex flex-row">
+        <div className="basis-2/12 flex sm:flex-row sticky top-0 bg-white z-10 border-b-2 border-[#719da3]">
           <div className="basis-3/12 bg-white-500"> <LogoTitleContainer /> </div>
           <div className="basis-7/12 bg-white-600"> <TabsContainer /> </div>
           <div className="w-2/12 bg-white-700 flex justify-end items-center transform scale-90"><LoginContainer /></div>
