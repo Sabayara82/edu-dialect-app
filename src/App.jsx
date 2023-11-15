@@ -13,6 +13,7 @@ import AboutTab from "./components/tabs/AboutTab";
 import ImpactTab from "./components/tabs/ImpactTab";
 import ProficiencyTestTab from "./components/tabs/ProficiencyTestTab";
 import SupportTab from "./components/tabs/SupportTab";
+import CurriculumTab from './components/tabs/CurriculumTab';
 
 // let router = createBrowserRouter([
 //   { path: "/", id: "Home", element: <HomePageTab />, value: "0" },
@@ -43,6 +44,7 @@ function App() {
             <Route exact path="/impact" element={<ImpactTab />} />
             <Route exact path="/proficiencytest" element={<ProficiencyTestTab />} />
             <Route exact path="/support" element={<SupportTab />} />
+            <Route exact path="/curriculum" element={<CurriculumTab />} />
           </Routes>
         </div>
 

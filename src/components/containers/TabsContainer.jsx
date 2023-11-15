@@ -11,7 +11,7 @@ export default function TabsContainer() {
                     <button className="pl-[8%] h-full" onClick={() => navigate("/impact")}>Impact</button>
                     <button className="pl-[8%] h-full" onClick={() => navigate("/proficiencytest")}>Proficiency Test</button>
                     <button className="pl-[8%] h-full" onClick={() => navigate("/support")}>Support</button>
-
+                    <button className="pl-[8%] h-full" onClick={() => navigate("/curriculum")}>Curriculum</button>
                 </div>
                 
 
