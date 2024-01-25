@@ -42,6 +42,7 @@ function Tabs() {
         <Tab label="Proficiency Test" path="/proficiencytest" activeTab={activeTab} />
         <Tab label="Support" path="/support" activeTab={activeTab} />
       </div>
+      
     </div>
   );
 }
