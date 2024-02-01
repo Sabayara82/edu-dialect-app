@@ -5,7 +5,7 @@ export default function LoginContainer() {
     return ( 
         <>
             <button onClick={()=>navigate("/login")}>
-                    <img className="w-8 md:w-16 lg:w-20" src="login.png"/>
+                <img className="w-8 md:w-16 lg:w-20" src="login.png"/>
             </button>
             
         </>
