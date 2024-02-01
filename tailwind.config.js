@@ -2,8 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}", "./index.html"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "primary-400": "#719da3",
+      },
+    },
   },
   plugins: [require("@tailwindcss/line-clamp")],
 };
-

@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 // import AboutImg from "./public/aboutImg.png"; 
 
@@ -42,4 +43,5 @@ export default function AboutTab() {
       </div>
     </div>
   );
+
 }
