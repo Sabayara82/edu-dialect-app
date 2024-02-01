@@ -27,11 +27,11 @@ const Navbar = () => {
         {links.map((link) => (
           <div
             key={link.name}
-            className={`flex text-center text-xl grow  ${
+            className={`flex text-center justify-center text-xl grow  ${
               link.width
             } hover:text-primary-400 ${
               activeTab === link.path
-                ? "text-primary-400 font-semibold"
+                ? "text-primary-400 font-semibold border-b-2 border-primary-400"
                 : "text-gray-500"
             }`}
           >
@@ -46,10 +46,10 @@ const Navbar = () => {
       </div>
 
       <div className="flex gap-8">
-        <div className="rounded-3xl px-4 py-1 border-2 text-xl cursor-pointer ">
+        <div className="rounded-3xl px-4 py-1 border-2 text-xl cursor-pointer hover:bg-primary-400 transition ease-in hover:text-white">
           Login
         </div>
-        <div className="rounded-3xl px-4 py-1 bg-primary-400 text-white text-xl cursor-pointer">
+        <div className="rounded-3xl px-4 py-1 bg-primary-400 text-white text-xl cursor-pointer hover:bg-primary-400 hover:brightness-110 transition ease-in">
           Sign Up
         </div>
       </div>
