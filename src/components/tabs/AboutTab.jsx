@@ -1,6 +1,5 @@
+import Navbar from "../containers/Navbar";
 
 export default function AboutTab() {
-    return (
-        <div>AboutTab</div>
-    ); 
+  return <>{/* <Navbar /> */}</>;
 }
