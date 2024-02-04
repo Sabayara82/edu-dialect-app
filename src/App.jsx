@@ -54,7 +54,7 @@ function App() {
           </Routes>
         </div>
 
-        <div className="basis-1.5px bg-lime-600">
+        <div className="basis-1.5px bg-lime-700">
           <FooterContainer />
         </div>
       </div>
