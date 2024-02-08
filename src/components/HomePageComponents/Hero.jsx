@@ -25,7 +25,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
       {/* Right side of the page */}
       <div className="w-1/2 p-8 flex flex-col justify-center items-center">
         {/*  */}

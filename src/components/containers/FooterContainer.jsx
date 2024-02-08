@@ -39,7 +39,6 @@ export default function FooterContainer() {
           </div>
         </div>
         <div className=" w-full">
-          {" "}
           <div className="basis-5/6 pl-4">© 2023 Edu Dialect</div>
         </div>
       </div>
