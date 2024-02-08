@@ -1,47 +1,46 @@
-
 import { Link } from "react-router-dom";
-// import AboutImg from "./public/aboutImg.png"; 
+// import AboutImg from "/aboutImg.png";
 
 export default function AboutTab() {
   return (
     // Full page container
-    <div className="h-screen bg-white flex flex-col sm:flex-row">
-      {/* Left side of the page */}
-      <div className="w-1/2 p-8 flex flex-col justify-center items-center">
-        <div className="flex-grow flex flex-col items-center justify-center mt-20">
-          <p className="text-6xl font-poppins font-bold max-w-full max-h-full mb-10 mt-20">
-            About EduDialect
-          </p>
-          <div className="flex-grow flex flex-col items-center">
-            <p className="text-lg text-gray-700 max-w-md text-center mb-5">
-            Edu Dialect is a volunteer-driven non-profit organization dedicated to empowering underprivileged children 
-            worldwide with essential resources. Our mission is to fundraise for charity organizations worldwide by providing 
-            quality English Language classes.            
-            </p>
-            <p className="text-lg text-gray-700 max-w-md text-center mb-5">
-              
-              Our team consists of passionate individuals dedicated to [briefly describe team or organization]. We strive to [mention any unique aspects or goals].
-            </p>
-            <p className="text-lg text-gray-700 max-w-md text-center mb-5">
-              
-              With a vision for [mention your vision or goals], EduDialect aims to [explain how you're making a positive impact]. Join us on this journey!
-            </p>
-            {/* Additional information, links, or calls to action can be added here */}
+    <div className=" bg-white flex flex-col py-4">
+      <div className="flex gap-20 px-12 py-24 justify-center ">
+        <div className="flex flex-col gap-4 w-1/2">
+          <div className="text-2xl font-bold">About EduDialect</div>
+          <div className="text-3xl font-light">
+            Edu Dialect is a volunteer-driven non-profit organization dedicated
+            to empowering underprivileged children worldwide with essential
+            resources.
           </div>
         </div>
+        <div className="w-1/3">
+          {" "}
+          <img src={"aboutus1.svg"} className=" " />
+        </div>
       </div>
+      <div className="flex flex-col">
+        <img src="bg-section-top-desktop-1.svg" />
+        <div className="flex gap-20 px-12 py-24 justify-center bg-primary-300">
+          <div className="w-1/3">
+            <img src={"aboutus2.svg"} className=" " />
+          </div>
 
-      {/* Right side of the page */}
-      <div className="w-1/2 p-8 flex flex-col justify-center items-center">
-        <div className="flex-grow h-2/3 flex flex-col items-center justify-center">
-          {/* About page image */}
-          {/* <img src={AboutImg} alt="About Image" className="max-w-full max-h-full mb-4" /> */}
+          <div className="flex flex-col gap-4 w-1/2 ">
+            <div className="text-xl font-bold">Our Mission</div>
+            <div className="text-2xl font-light">
+              Our mission is to fundraise for charity organizations worldwide by
+              providing quality English Language classes. Our team consists of
+              passionate individuals dedicated to [briefly describe team or
+              organization]. We strive to [mention any unique aspects or goals].
+              With a vision for [mention your vision or goals], EduDialect aims
+              to [explain how you're making a positive impact]. Join us on this
+              journey!
+            </div>
+          </div>
         </div>
-        <div className="flex-grow">
-          {/* Additional content or sections can be added here */}
-        </div>
+        <img src="bg-section-bottom-desktop-1.svg" />
       </div>
     </div>
   );
-
 }

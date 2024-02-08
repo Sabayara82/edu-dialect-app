@@ -25,6 +25,9 @@ module.exports = {
         slideInRight: "slideInRight 0.5s ease-out forwards",
         slideInLeft: "slideInLeft 0.5s ease-out forwards",
       },
+      fontSize: {
+        // '4xl' :
+      },
     },
   },
   plugins: [require("@tailwindcss/line-clamp")],
