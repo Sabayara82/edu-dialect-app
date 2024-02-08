@@ -17,9 +17,9 @@ export default function FooterContainer() {
           </div>
           <div className="flex flex-col gap-3 text-center">
             <Link to="/about">About Us</Link>
-            <Link to="\impact">Impact</Link>
-            <Link to="\proficiencytest">Proficiency Test</Link>
-            <Link to="\support">Support</Link>
+            <Link to="/impact">Impact</Link>
+            <Link to="/proficiencytest">Proficiency Test</Link>
+            <Link to="/support">Support</Link>
 
             {/* <Link to = "\impact"></Link> */}
           </div>
