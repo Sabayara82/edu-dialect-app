@@ -5,6 +5,7 @@ import styles from "./index.css";
 
 import FooterContainer from "./components/containers/FooterContainer";
 import LoginContainer from "./components/containers/LoginContainer";
+import SignUpTab from "./components/tabs/SignUpTab";
 import LogoTitleContainer from "./components/containers/LogoTitleContainer";
 import TabsContainer from "./components/containers/TabsContainer";
 
@@ -15,13 +16,6 @@ import ProficiencyTestTab from "./components/tabs/ProficiencyTestTab";
 import SupportTab from "./components/tabs/SupportTab";
 import Navbar from "./components/containers/Navbar";
 
-// let router = createBrowserRouter([
-//   { path: "/", id: "Home", element: <HomePageTab />, value: "0" },
-//   { path: "/about", id: "About", element: <AboutTab />, value: "1" },
-//   { path: "/impact", id: "Impact", element: <ImpactTab />, value: "2" },
-//   { path: "/proficiencytest", id: "ProficiencyTest", element: <ProficiencyTestTab />, value: "3" },
-//   { path: "/support", id: "Support", element: <SupportTab />, value: "4" },
-// ])
 
 function App() {
   return (
@@ -44,13 +38,10 @@ function App() {
             <Route exact path="/" element={<HomePageTab />} />
             <Route exact path="/about" element={<AboutTab />} />
             <Route exact path="/impact" element={<ImpactTab />} />
-            <Route
-              exact
-              path="/proficiencytest"
-              element={<ProficiencyTestTab />}
-            />
+            <Route exact path="/proficiencytest" element={<ProficiencyTestTab />} />
             <Route exact path="/support" element={<SupportTab />} />
             <Route exact path="/login" element={<LoginContainer />} />
+            <Route exact path="/signUp" element={<SignUpTab />} />
           </Routes>
         </div>
 
