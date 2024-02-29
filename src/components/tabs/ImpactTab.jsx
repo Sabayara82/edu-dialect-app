@@ -72,7 +72,7 @@ export default function ImpactTab() {
         </div>
         <img src="bg-section-bottom-desktop-1.svg" />
       </div>
-      <ul className="flex  justify-evenly mt-6 text-xl">
+      <ul className="flex  justify-evenly mt-6 text-xl pt-4 pb-12">
         <li className=" flex flex-col items-center text-gray-600">
           Connected
           <div className="w-16 text-center">
