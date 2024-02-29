@@ -5,10 +5,9 @@ function Tab({ label, path, activeTab }) {
   const isActive = activeTab === path;
 
   const tabStyles = {
-    fontFamily: "sans-serif", 
+    fontFamily: "YourFontName, sans-serif",
     //fontWeight: isActive ? "bold" : "normal", // css for active and inactive tabs
-    fontSize: "20px", 
-    
+    fontSize: "20px",
   };
 
   return (
@@ -24,7 +23,6 @@ function Tab({ label, path, activeTab }) {
   );
 }
 
-
 function Tabs() {
   const location = useLocation();
   const [activeTab, setActiveTab] = useState(location.pathname);
@@ -38,7 +36,11 @@ function Tabs() {
       <div className="flex justify-evenly h-[50%] w-full divide-x-2 border-2 border-none">
         <Tab label="About" path="/about" activeTab={activeTab} />
         <Tab label="Impact" path="/impact" activeTab={activeTab} />
-        <Tab label="Proficiency Test" path="/proficiencytest" activeTab={activeTab} />
+        <Tab
+          label="Proficiency Test"
+          path="/proficiencytest"
+          activeTab={activeTab}
+        />
         <Tab label="Support" path="/support" activeTab={activeTab} />
       </div>
     </div>
@@ -46,6 +48,3 @@ function Tabs() {
 }
 
 export default Tabs;
-
-
-

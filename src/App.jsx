@@ -39,7 +39,7 @@ function App() {
           <RouterProvider router={router} /> 
         </div> */}
 
-        <div className="basis-11/12 bg-yellow-600">
+        <div className="basis-11/12 ">
           <Routes>
             <Route exact path="/" element={<HomePageTab />} />
             <Route exact path="/about" element={<AboutTab />} />
