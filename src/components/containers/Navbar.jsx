@@ -15,7 +15,9 @@ const Navbar = () => {
     { name: "Impact", path: "/impact", width: "w-16" },
     { name: "Proficiency Test", path: "/proficiencytest", width: "w-40" },
     { name: "Support", path: "/support", width: "w-16" },
-    { name: "SignUp", path: "/signUp", width: "w-16" },
+    // Saba added bellow code for testing purposes delete 
+    { name: "StuSignUp", path: "/StudentSignUp", width: "w-16" },
+    { name: "volSignUp", path: "/VolunteerSignUp", width: "w-16" },
   ];
   return (
     <div className="flex justify-between w-full bg-white py-4 px-8 items-center">

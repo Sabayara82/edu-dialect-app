@@ -5,7 +5,9 @@ import styles from "./index.css";
 
 import FooterContainer from "./components/containers/FooterContainer";
 import LoginContainer from "./components/containers/LoginContainer";
-import SignUpTab from "./components/tabs/SignUpTab";
+import StudentSignUpTab from "./components/tabs/StudentSignUpTab";
+import VolunteerSignUpTab from "./components/tabs/VolunteerSignUpTab";
+
 import LogoTitleContainer from "./components/containers/LogoTitleContainer";
 import TabsContainer from "./components/containers/TabsContainer";
 
@@ -41,7 +43,10 @@ function App() {
             <Route exact path="/proficiencytest" element={<ProficiencyTestTab />} />
             <Route exact path="/support" element={<SupportTab />} />
             <Route exact path="/login" element={<LoginContainer />} />
-            <Route exact path="/signUp" element={<SignUpTab />} />
+            {/* saba added bellow for testing purposes*/}
+            <Route exact path="/StudentSignUp" element={<StudentSignUpTab />} /> 
+            <Route exact path="/VolunteerSignUp" element={<VolunteerSignUpTab />} /> 
+            
           </Routes>
         </div>
 
