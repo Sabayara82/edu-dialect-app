@@ -5,7 +5,12 @@ export default function LogoTitleContainer() {
     
     return (
         <>
-            <button onClick={()=>navigate("/")}>Logo and Title</button>
+            <button onClick={()=>navigate("/")}>
+                <img className="w-14 md:w-32 lg:w-48"
+                src="Logo.png"
+                s/>
+                
+                </button>
         </>
     ); 
 }
