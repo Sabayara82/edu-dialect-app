@@ -9,7 +9,7 @@ export default function ImpactTab() {
   return (
     <div className=" bg-white flex flex-col py-4">
       <div className="flex  px-20 py-4 justify-center items-center">
-        <div className="flex flex-col gap-4 w-1/2">
+        <div className="flex flex-col gap-4 w-1/2 px-5 py-4">
           <div className="text-6xl font-bold">Our Impact</div>
           <section className="mb-8 py-8">
             <h2 className="text-2xl font-semibold mb-4">

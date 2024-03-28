@@ -49,12 +49,12 @@ function App() {
               path="/proficiencytest"
               element={<ProficiencyTestTab />}
             />
-            <Route exact path="/support" element={<SupportTab />} />
+            <Route exact path="/supportus" element={<SupportTab />} />
             <Route exact path="/login" element={<LoginContainer />} />
           </Routes>
         </div>
 
-        <div className="basis-1.5px bg-lime-700">
+        <div className="basis-1.5px ">
           <FooterContainer />
         </div>
       </div>

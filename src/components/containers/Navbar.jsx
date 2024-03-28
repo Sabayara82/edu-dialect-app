@@ -14,7 +14,7 @@ const Navbar = () => {
     { name: "About", path: "/about", width: "w-16" },
     { name: "Impact", path: "/impact", width: "w-16" },
     { name: "Proficiency Test", path: "/proficiencytest", width: "w-40" },
-    { name: "Support", path: "/support", width: "w-16" },
+    { name: "Support us", path: "/supportus", width: "w-28" },
   ];
   return (
     <div className="flex justify-between w-full bg-white py-4 px-8 items-center">
@@ -27,7 +27,7 @@ const Navbar = () => {
         {links.map((link) => (
           <div
             key={link.name}
-            className={`flex text-center justify-center text-xl grow  ${
+            className={`flex text-center justify-center text-xl grow   ${
               link.width
             } hover:text-primary-400 ${
               activeTab === link.path
@@ -41,7 +41,7 @@ const Navbar = () => {
             >
               {link.name}
             </Link>
-            <span className="absolute left-0 -bottom-1 w-full h-2 bg-blue-400 -z-10 group-hover:h-full group-hover:transition-all"></span>
+            {/* <span className="absolute left-0 -bottom-1 w-full h-2 bg-blue-400 -z-10 group-hover:h-full group-hover:transition-all"></span> */}
           </div>
         ))}
       </div>
